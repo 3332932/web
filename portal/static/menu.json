@@ -1,0 +1,39 @@
+{
+    "flag": {
+        "retCode": "0",
+        "retMsg": "success"
+    },
+    "rows": [
+        {
+            "id": "0",
+            "text": "用户",
+            "url": "http://dec.vip.cn/#/user",
+            "icon": "",
+            "resourceId": "0",
+            "children": []
+        },{
+            "id": "1",
+            "text": "角色",
+            "url": "http://dec.vip.cn/#/role",
+            "icon": "",
+            "resourceId": "1",
+            "children": []
+        },
+        {
+            "id": "2",
+            "text": "权限",
+            "url": "http://dec.vip.cn/#/permission",
+            "icon": "",
+            "resourceId": "2",
+            "children": []
+        },
+        {
+            "id": "3",
+            "text": "调试页面B",
+            "url": "http://localhost:8080/#/B",
+            "icon": "",
+            "resourceId": "3",
+            "children": []
+        }
+    ]
+}

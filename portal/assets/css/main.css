@@ -1,0 +1,271 @@
+    html {
+		font-family: '微软雅黑';
+		background: #f6f6f6;
+    }
+	.c {
+		clear: both;
+	}
+	.fl {
+		float: left;
+	}
+	.fr {
+		float: right;
+    }
+    .pr{
+        position: relative;
+    }
+    .pa{
+        position: absolute;
+    }
+	html,
+	body {
+	padding: 0;
+	margin: 0;
+	}
+	/***************隐藏滚动条*****************/
+    ::-webkit-scrollbar{
+	    width: 5px;
+	    height: 7px;
+	    box-sizing: border-box;
+	}
+	::-webkit-scrollbar-button{
+	    width:9px;
+	    height:12px;
+	    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAUCAYAAADRA14pAAADr0lEQVRYR71Yy04iQRQtE10IRiSBOLbOUvZmfkIlLHXjI+jCDzAm8w8TJKxZyENdqEui8BPuDVtsHCNGQcFEWUzdSt/KtbqqqZ44U0kn1V2n69xz63W6x5h9iXFoNADe521dftnibJlt+7PCjdmycpzz9vbmmvCTk5PzvK0NuNvbWyNuYWEBcbbUX8obSvBgMDAKiUQiUrDLi0nNPC9eYqwFfyWvTvAPHsm1JhqHEl9dXbHV1VUJo4Lv7u6k4JOTE7a5uSlxc3Nz/0ww5VXjR15VMIjFoop2+v2+EAJisaDoaDQqR/j+/l7gjo+PJW5ra0vUZ2dnqWDko1zqM+fi4kL0RxOMMaytrUneXC4ncMhFYzg4OBA4KpiK1Yl2Xl9fXSqWip6ampLEDw8PbrVa9U2S7e1tlkwmdYIBC6J1CXfOz8/ljAHRNIbFxcXs0tJShb/rHB4eShxw0RgymczPVCr1CwWrRCOJeQesVqtJUevr61JwPp+XxHt7e6xYLErc/v6+OqVHJvrl5cWt1+u+BEIMNzc3UvDj46NbqYD2zwViaLfbWsGBU+vs7EwIASIow+GQYSA8e5K4UCgIHBBBeX9/Z+VyWdT5CAliJabApdTr9UR/VDTGQPeO5+dngUMuGgPiQu3S3W7XHR8fl2IxaHjWbDalYAhwYmJCNH98fEht8KzVaukEA8a4WQIvdgKiacJjsZicWZgYwJZKJZlwiGF6etq3hpWk+24dzKAOODMzI4lhrZs6I2t9FB+2+3ghcZjIIF4YCJiFUJA31AjbCrY8N/9aMH2RCrbhDSP4OydKBETZ4W09fn3jV8SAG/Dnv/kFFtS22PC2eGdWOJNg3fnos3iXl5ci6HQ6zTxryVRbeXp6KjAbGxvMYCt1XDQZgpdy0UbV0lI+ikNuk9NCLN21fU4LQXA2ersgbP+fXBZiwG05jqNzWUE7NLwueHVmBxrpLg3c4OwoJ9aR+6udFgvhsugA/DeHZ3JaWi+tOi1q9bxdkHU6nU8uCxwPlkQiEeSjTaKFw8M+1JGmDg+4EUddFsSA3KFGWGcAVlZWBId3zrGnpyff4Z/NZgUmHo+bBIc2Hgqv+Cy14Q61hlUDgNkEcs8AMPXwR8zOzo48/Olc5vWRaxh4qctCsdCPajzAcFBOrI8yHtpdWj2HG42G6G95eZl55yHDLyokOjo6EtXd3V1Gvqh061e3jAAnjAfloi/Tcxi4KR/FIXeYc9jmFwpw2PwGUgY58NaG1/rX0h9d1DUzJEP0JgAAAABJRU5ErkJggg==);
+	    background-color:transparent;
+	    background-repeat:no-repeat;
+	}
+	::-webkit-scrollbar-button:vertical:start{
+	    background-position:0 0;
+	}
+	::-webkit-scrollbar-button:vertical:start:hover{
+	    background-position:-10px 0;
+	}
+	::-webkit-scrollbar-button:vertical:start:active{
+	    background-position:-20px 0;
+	}
+	::-webkit-scrollbar-button:vertical:end{
+	    background-position:-30px 0;
+	}
+	::-webkit-scrollbar-button:vertical:end:hover{
+	    background-position:-40px 0;
+	}
+	::-webkit-scrollbar-button:vertical:end:active{
+	    background-position:-50px 0;
+	}
+	::-webkit-scrollbar-button:horizontal:start{
+	    background-position:0 -11px;
+	}
+	::-webkit-scrollbar-button:horizontal:start:hover{
+	    background-position:-10px -11px;
+	}
+	::-webkit-scrollbar-button:horizontal:start:active{
+	    background-position:-19px -11px;
+	}
+	::-webkit-scrollbar-button:horizontal:end{
+	    background-position:-30px -11px;
+	}
+	::-webkit-scrollbar-button:horizontal:end:hover{
+	    background-position:-40px -11px;
+	}
+	::-webkit-scrollbar-button:horizontal:end:active{
+	    background-position:-50px -11px;
+	}
+	::-webkit-scrollbar-track-piece {
+	    background-color: rgba(0,0,0,0.15);
+	    -webkit-border-radius:5px;
+	}
+	::-webkit-scrollbar-thumb{
+	    background-color: #999;
+	    /* border: 1px solid rgba(0,0,0,0.21); */
+	    -webkit-border-radius: 5px;
+	}
+	::-webkit-scrollbar-thumb:hover{
+	    background-color: #777;
+	    border: 1px solid rgba(0,0,0,0.21);
+	}
+	::-webkit-scrollbar-corner{
+	    background-color:#f1f1f1;
+	    -webkit-border-radius: 1px;
+	}
+    /*******************公共图标********************/
+    .icon {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .icon-1 {
+        width: 14px;
+        height: 14px;
+        background: url(../images/icon/icon1.jpg) center center;
+        background-size: 100% 100%;
+    }
+    .icon-2 {
+        width: 14px;
+        height: 14px;
+        background: url(../images/icon/icon2.jpg) center center;
+        background-size: 100% 100%;
+    }
+    .icon-zz {
+        background: url(../images/icon/zz.png) center center;
+        background-size: 100% 100%;
+    }
+    .icon-rs {
+        background: url(../images/icon/rs.png) center center;
+        background-size: 100% 100%;
+    }
+    .icon-xz {
+        background: url(../images/icon/xz.png) center center;
+        background-size: 100% 100%;
+    }
+    .icon-ht {
+        background: url(../images/icon/ht.png) center center;
+        background-size: 100% 100%;
+    }
+    .icon-xt {
+        background: url(../images/icon/xt.png) center center;
+        background-size: 100% 100%;
+    }
+    .icon-yd {
+        background: url(../images/icon/yd.png) center center;
+        background-size: 100% 100%;
+    }
+    .icon-kq {
+        background: url(../images/icon/kq.png) center center;
+        background-size: 100% 100%;
+    }
+    .icon-bb {
+        background: url(../images/icon/bb.png) center center;
+        background-size: 100% 100%;
+    }
+    /******************重写element-ui样式*******************/
+    .el-dialog__header {
+        padding: 0 0px 0 20px; 
+        line-height: 60px;
+        border-bottom: solid 1px #dddddd;
+    }
+    .el-dialog__header .el-dialog__title {
+        font-size: 16px;
+    }
+    .el-form--inline .el-form-item__label {
+        float: left;
+    }
+    .el-dialog__body {
+        padding: 20px 10px 0;
+    }
+    .el-form-item {
+        margin-bottom: 10px;
+    }
+    .el-dialog {
+        border-radius: 5px;
+    }
+    .el-dialog.normal {
+        width: 700px !important;
+    }
+    .el-dialog.small {
+        width: 550px !important;
+    }
+    .el-form-item__error {
+        font-size: 14px;
+        display: block;
+        position: relative;
+        text-align: left;
+    }
+    .el-input--small, .el-input__inner {
+        height: 35px !important;
+        line-height: 35px !important;
+    }
+    .el-button {
+        padding: 9px 16px;
+    }
+
+    .avatar-uploader .el-upload {
+        border: 1px dashed #d9d9d9;
+        border-radius: 6px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    .avatar-uploader .el-upload:hover {
+        border-color: #20a0ff;
+    }
+    .avatar-uploader {
+        line-height: 20px;
+    }
+    .avatar-uploader-icon {
+        font-size: 28px;
+        color: #8c939d;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        text-align: center;
+    }
+    .avatar {
+        width: 120px;
+        height: 120px;
+        display: block;
+        border: 1px dashed #d9d9d9;
+    }
+    .readonly input{
+        background-color: #dadada
+    }
+    .expend-icon{
+        background: url(../images/expend.png) no-repeat;
+        background-size: 14px;
+    }
+    /*****************重写autocomplete********************/
+    .el-autocomplete .el-input input {
+        background: transparent !important;
+        outline: none;
+        border-radius: 0;
+        border: 0;
+        color:#bbbbbb;
+        height: 28px !important;
+        line-height: 28px !important;
+        border-bottom: solid 1px #858585;
+    }
+    .search .el-autocomplete .el-input input {
+        border-radius: 5px;
+        background:black !important;
+        border: 1px solid black;
+    }
+    .el-autocomplete .el-input input::-webkit-input-placeholder{
+        color:#bbbbbb;
+    }
+    .el-autocomplete .el-input input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+        color:#bbbbbb;
+    }
+    .el-autocomplete .el-input input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+        color:#bbbbbb;
+    }
+    .el-autocomplete .el-input input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+        color:#bbbbbb;
+    }
+    .container-env{
+        border: 1px solid #a97b45;
+        border-radius: 5px;
+        padding: 2px 8px;
+    }
+    .envImg {
+        width: 16px;
+        height: 16px;
+        vertical-align: -3px;
+        margin-right: 5px;
+    }
+    .el-menu-item.is-active {
+        background: #ecf5ff !important;
+        color: #a97b45;
+    }
+    .el-autocomplete-suggestion li.highlighted, .el-autocomplete-suggestion li:hover {
+        background-color: #cfd2d6 !important;
+    }
+
+    /* 处理个人中心 弹出框的布局 edge下 */
+    .el-form--inline .el-form-item__label {
+        float: none !important;
+    }
+
+    .el-tabs__header{
+        margin: 0px 0px 5px 0px !important;
+    }

@@ -1,0 +1,20 @@
+{
+    "flag": {
+        "retCode": "0",
+        "retMsg": "success"
+    },
+    "data": {
+        "admin": true,
+        "companyId": 1,
+        "deleted": false,
+        "email": "1@ad1.com",
+        "icon": "5b6957ffde01af0001493aa1",
+        "id": 2,
+        "isAdmin": true,
+        "loginName": "admin",
+        "orgId": 1,
+        "phoneNumber": "13512342345",
+        "userName": "超级管理员"
+    },
+    "token": "eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIn0..ahd-7Qt0tat2U3nn.PgdfvnMwr2GgJiVa_5AxcdXqaNjmRIJ4Jf4P9sZnGGV3GjpaZbhoOdVWs6l4VyeTDWtwSbx-JIgU8W25W0uQn4yRTSPYYOxU3OHLqvxvpwLRyfRhztrNUp77d53_Zqkv6Jgj_3_3a65VYSQgW96jTkWEDQ3us7Hm3aazt8IrsmF1mB6VQsvR8nbBTcFwdxvGAGhmWlSviEFb4gOgUEdd6u-OzDoWrehmXUnpQIY62heNb6ZcUkIp6WQaaQF73LD0NDtPjefX4Mr8GNcD1DQR5MNK0npwJ7OwS-Y9kLzP4DuCAt0Iurkhc3zUtjNzetMxnPOA8SeRv_lzyzJiB2pGoyrYy5JkzS5Yfz8Ped8fdMSfNkviCtqeFWEBa2nOm5_gXTtLGd6tiadC6gy5OqJ6egT_3nAbSY_6lE5ArZ9wqSp77BkRFHnK1mjknBTmzXmrFJ3ERWJAdzxHHK2fSVimApRPOYGsGUBOQv6R0e_QVVbMeFyQ0ewgs24-qNlE3yNVMiAqcbOv8PfrEbbByCH8qQDiF_d_79eKJCxkiNOuTq_Yxe2wZOiOQWUcilgcZ9vgIm4VQsrIxitzvkuoHlvKJM2f3m_bnIqhREh37T0uyjQmvgfseuzqbdwfZ_p75cUgYb_E002GZnbpdAAFq4lQZ4gE1e4C3wyk0UYpu38xxmZU1gVKOAPMSBeUxYk.mmAz4aPyyQ983a3qR99VwA"
+}
